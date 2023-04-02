@@ -1,0 +1,22 @@
+.segunda-div{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+    background-image: url("../../Images/mkdg4.jpg");
+    background-blend-mode: color;
+
+    
+}
+
+.servicos{
+    background-color: #ffffffc7;
+    width: 85%;
+    padding-top: -2em;
+    /* position:absolute;
+    top: 127%;
+    left: 10%;
+     */
+}
+.imagem{
+    width: 106px;
+    height: 106px;
+}

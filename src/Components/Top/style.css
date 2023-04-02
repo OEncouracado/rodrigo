@@ -1,12 +1,25 @@
-.topoFundo{
-    background-color: #ffffff1f;
+.fundo{
+    background-color: #000000c5;
+    background-image: url("../../Images/mkdg2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: color;
 }
 
-.texto{
-    font-family: 'Play', sans-serif;;
+.textoTop{
+    /* font-family: 'Play', sans-serif;; */
     font-size: 3em;
-    color: #00647b;
+    color: white;
 }
 .logo{
-    width: 90%;
+    width: 30%;
+}
+.sociais{
+    color: white;
+}
+.direita{
+    background-color: #ffffff8e;
+    width: 100%;
+    margin: 0;
 }

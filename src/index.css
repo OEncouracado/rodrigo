@@ -13,3 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  font-style:unset;
+  color: unset;
+}
+
+a:hover{
+  font-style:unset;
+  color: unset;
+}
+
