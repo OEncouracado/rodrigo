@@ -1,0 +1,11 @@
+.fundoPlano{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+    background-image: url("../../Images/mkdg4.jpg");
+    background-blend-mode: color;
+}
+
+.planos{
+    background-color: #ffffffc7;
+    width: 85%;
+}

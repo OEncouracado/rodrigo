@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import { Container } from 'react-bootstrap';
-import logo from "../../Images/harcoSFundo.png"
+import logo from "../../Images/harcoSFundoB.png"
 
 function Topo() {
   return (

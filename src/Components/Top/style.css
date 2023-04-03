@@ -1,5 +1,5 @@
 .fundo{
-    background-color: #000000c5;
+    background-color: #000000da;
     background-image: url("../../Images/mkdg2.png");
     background-size:cover;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
     color: white;
 }
 .direita{
-    background-color: #ffffff8e;
+    /* background-color: #ffffff8e; */
     width: 100%;
     margin: 0;
 }
