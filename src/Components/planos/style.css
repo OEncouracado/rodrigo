@@ -9,3 +9,22 @@
     background-color: #ffffffc7;
     width: 85%;
 }
+
+.fundoPlanoB{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.815);
+    background-image: url("../../Images/mkdg4.jpg");
+    background-blend-mode: lighten;
+}
+
+.planosB{
+    background-color: #000000c7;
+    width: 85%;
+}
+
+.protection-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

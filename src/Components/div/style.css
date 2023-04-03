@@ -16,7 +16,30 @@
     left: 10%;
      */
 }
+.segunda-divB{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.829);
+    background-image: url("../../Images/mkdg4.jpg");
+    background-blend-mode: lighten;
+
+    
+}
+
+.servicosB{
+    background-color: #000000c7;
+    width: 85%;
+    padding-top: -2em;
+    /* position:absolute;
+    top: 127%;
+    left: 10%;
+     */
+}
 .imagem{
     width: 106px;
     height: 106px;
+}
+
+
+.tituloB{
+    color: white;
 }

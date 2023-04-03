@@ -1,0 +1,61 @@
+.protection-card {
+    background-color: #ffffffb6;
+    background-image: url("../../Images/planofundo.png");
+    background-blend-mode: lighten;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 16px;
+    max-width: 200px;
+    min-width: 190px;
+    overflow: visible;
+    padding-top: -15px;
+  }
+  
+  .protection-card__title {
+    width: 90%;
+    background-color:#565656 ;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-top: -15px ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 2px; */
+    border-radius: 0.2em;
+  }
+  
+  .protection-card__price {
+    /* background-color: #bf731c;
+    color: #fff; */
+    font-size: 2em;
+    font-weight: 700;
+    margin: 16px;
+    padding: 16px;
+    text-align: center;
+    border-radius: 0.2em;
+  }
+ .protection-card__description{
+    color: #414141;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    width: 80%;
+    height: 10em;
+    padding: 0.2em;
+    margin-bottom: 0.2em;
+    overflow:visible;
+    font-weight: bold;
+ }  
+ .protection-card__button{
+    padding: auto;
+    text-align: center;
+    color: white;
+    background-color: #00647b;
+ }
+
+ .protection-card__button:hover{
+    background-color: #017892;
+    color: white;
+ }

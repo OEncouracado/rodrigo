@@ -1,0 +1,41 @@
+.transicao2{
+    background-color: rgba(0, 0, 0, 0.685);
+    background-image: url("../../Images/negocio.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-blend-mode:color;
+    width: 100%;
+    /* height: 20em; */
+}
+
+.transicao2 h1::after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    margin: 10px auto 26px;
+    background-color: #fff;
+}
+
+.transicao2B{
+    background-color: #ffffff9a;
+    background-image: url("../../Images/negocio.png");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-blend-mode:lighten;
+    width: 100%;
+    /* height: 20em; */
+}
+
+.transicao2B h1::after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    margin: 10px auto 26px;
+    background-color: black;
+}
