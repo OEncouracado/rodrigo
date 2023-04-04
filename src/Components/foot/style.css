@@ -1,0 +1,40 @@
+.foot{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+    background-image: url("../../Images/mkdg4.jpg");
+    background-blend-mode: color;
+}
+
+.footB{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.815);
+    background-image: url("../../Images/mkdg4.jpg");
+    background-blend-mode: lighten;
+}
+
+.foot__mid{
+    background-color: rgba(255, 68, 0, 0.637);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoF{
+    width: 60%;
+    margin: auto;
+
+}
+.foot__mid__direct{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+
+}
+.foot__mid__obg{
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+
+}

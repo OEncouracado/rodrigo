@@ -27,8 +27,8 @@
   }
   
   .protection-card__price {
-    /* background-color: #bf731c;
-    color: #fff; */
+    background-color: #bf731cad;
+    color: #fff;
     font-size: 2em;
     font-weight: 700;
     margin: 16px;
@@ -37,7 +37,7 @@
     border-radius: 0.2em;
   }
  .protection-card__description{
-    color: #414141;
+    color: #272727;
     margin: auto;
     text-align: center;
     font-size: 1.2em;
