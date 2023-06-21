@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import { Container } from 'react-bootstrap';
-import logo from "../../Images/harcoSFundoB.png"
+import logo from "../../Images/Logos/logoleaoinvertido.png";
 
 
 
@@ -22,9 +22,8 @@ function Topo({ isLightMode }) {
           <h4>Entre em contato nas nossas redes sociais!</h4>
         </Container>
         <Container className={isLightMode ? 'pb-3 sociaisB d-flex align-items-center justify-content-center' : 'pb-3 sociais d-flex align-items-center justify-content-center'}>
-            <a href='https://www.instagram.com/harcoassessoria/' target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram mx-3 fs-2" aria-hidden="true"/></a>
-            <a href='https://www.facebook.com/harcoassessoria' target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook mx-3 fs-2" aria-hidden="true"/></a>
-            <a href='https://Wa.me/5521979171806' target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp mx-3 fs-2" aria-hidden="true"/></a>
+            <a href='https://www.instagram.com/lojasmavs/' target="_blank" rel="noopener noreferrer"> <i class="fa fa-instagram mx-3 fs-2" aria-hidden="true"/></a>
+            <a href='https://Wa.me/5521974087703' target="_blank" rel="noopener noreferrer"> <i class="fa fa-whatsapp mx-3 fs-2" aria-hidden="true"/></a>
 
         </Container>
       </div>

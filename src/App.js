@@ -4,11 +4,12 @@ import Topo from './Components/Top'
 // import { Container } from 'react-bootstrap';
 import Transicao from './Components/transicao';
 import Divisorias from './Components/div';
-import DivPlanos from './Components/planos';
+// import DivPlanos from './Components/planos';
 import SwitchLD from './Components/switch';
 import Transicao2 from './Components/transicao2';
 import Foot from './Components/foot';
 import DivClientes from './Components/clientes';
+import Transicao3 from './Components/transicao3';
 
 function App() {
   const [isLightMode, setIsLightMode] = useState(getInitialMode());
@@ -40,8 +41,9 @@ function App() {
     <Topo isLightMode={isLightMode}/>
     <Transicao isLightMode={isLightMode}/>
     <Divisorias isLightMode={isLightMode}/>
-    <Transicao2 isLightMode={isLightMode}/>
+    <Transicao3 isLightMode={isLightMode}/>
     <DivClientes isLightMode={isLightMode}/>
+    <Transicao2 isLightMode={isLightMode}/>
     {/* <DivPlanos isLightMode={isLightMode}/> */}
     <Foot isLightMode={isLightMode}/>
     </>
