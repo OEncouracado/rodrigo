@@ -8,6 +8,7 @@ import DivPlanos from './Components/planos';
 import SwitchLD from './Components/switch';
 import Transicao2 from './Components/transicao2';
 import Foot from './Components/foot';
+import DivClientes from './Components/clientes';
 
 function App() {
   const [isLightMode, setIsLightMode] = useState(getInitialMode());
@@ -40,7 +41,8 @@ function App() {
     <Transicao isLightMode={isLightMode}/>
     <Divisorias isLightMode={isLightMode}/>
     <Transicao2 isLightMode={isLightMode}/>
-    <DivPlanos isLightMode={isLightMode}/>
+    <DivClientes isLightMode={isLightMode}/>
+    {/* <DivPlanos isLightMode={isLightMode}/> */}
     <Foot isLightMode={isLightMode}/>
     </>
   )
