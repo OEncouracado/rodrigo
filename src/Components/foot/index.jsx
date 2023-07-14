@@ -25,7 +25,10 @@ function Foot({isLightMode}) {
         </div>
       </div>  
       <div className=" col-lg-4 pt-4 d-flex justify-content-end align-items-end">
-        <a className={isLightMode ? "devpor":"devpor text-white"} href="http://OEncouracado.github.io" target="_blank" rel="noopener noreferrer">Desevolvido por MAV's LEO</a> 
+        <div>
+          
+        </div>
+        <a className={isLightMode ? "devpor":"devpor text-white"} href="https://mavsleo.com.br" target="_blank" rel="noopener noreferrer">Desevolvido por MAV's LEO</a> 
       </div>
 
     
