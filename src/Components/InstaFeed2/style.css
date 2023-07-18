@@ -1,0 +1,33 @@
+.framedinsta::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .framedinsta::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .framedinsta::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+  
+  .framedinsta::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .framedinstaB::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .framedinstaB::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  .framedinstaB::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  .framedinstaB::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }

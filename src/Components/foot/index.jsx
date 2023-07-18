@@ -3,6 +3,8 @@ import "./style.css"
 import FormEmail from '../formEmail'
 import logo from "../../Images/Logos/logoleaoinvertido.png"
 import logoB from "../../Images/Logos/logoleaoinvertido.png"
+// import InstaFeed from './../InstaFeed/index';
+import InstagramFeed from '../InstaFeed2'
 
 function Foot({isLightMode}) {
   return (
@@ -24,9 +26,10 @@ function Foot({isLightMode}) {
           <h2 className={isLightMode ? "text-justify":"text-justify text-white"}>OBRIGADO!</h2>
         </div>
       </div>  
-      <div className=" col-lg-4 pt-4 d-flex justify-content-end align-items-end">
-        <div>
-          
+      <div className=" col-lg-4 pt-4 d-flex flex-column">
+        <div className="d-flex instafeedfoot align-self-top">
+          {/* <InstaFeed isLightMode={isLightMode}/> */}
+          <InstagramFeed/>
         </div>
         <a className={isLightMode ? "devpor":"devpor text-white"} href="https://mavsleo.com.br" target="_blank" rel="noopener noreferrer">Desevolvido por MAV's LEO</a> 
       </div>
