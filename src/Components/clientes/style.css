@@ -1,7 +1,7 @@
 .fundoPlano{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.925);
-    background-image: url("../../Images/mkdg4.jpg");
+    background-image: url("../../Images/avif/mkdg4_1.avif");
     background-blend-mode: color;
 }
 
@@ -13,7 +13,7 @@
 .fundoPlanoB{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.815);
-    background-image: url("../../Images/mkdg4.jpg");
+    background-image: url("../../Images/avif/mkdg4_1.avif");
     background-blend-mode: lighten;
 }
 

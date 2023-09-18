@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactHtmlParser from 'react-html-parser';
 import "./style.css"
 
 function InstagramFeed() {
-  const widgetHTML = '<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/535d5fbc91ff5412abbe69525b01faab.html" scrolling="yes" allowtransparency="true" class="lightwidget-widget framedinsta" style="width:100%;border:0;height:100%;overflow:hidden;"></iframe>';
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://static.elfsight.com/platform/platform.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  const elfsightCode = `<div class="elfsight-app-ca580c98-21e8-41be-af15-3d0526118ef9"></div>`;
 
   return (
-    <div>
-      {ReactHtmlParser(widgetHTML)}
+    <div className="w-100">
+      {ReactHtmlParser(elfsightCode)}
     </div>
   );
 }

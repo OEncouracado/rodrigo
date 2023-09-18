@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 import { Button } from 'react-bootstrap'
-import site from "../../Images/hospitalemcor.com.br.png"
+import site from "../../Images/avif/hospitalemcor.com.br.avif"
 
 function ProtectionCard({ title, price, descrip, zap, msg , isLightMode }) {
   return (
