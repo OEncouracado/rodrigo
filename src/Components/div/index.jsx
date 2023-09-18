@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 import { Container } from 'react-bootstrap'
 import Criacao from '../../Images/responsive-design.png'
-import Socialm from '../../Images/midia-social.png'
+import Socialm from '../../Images/avif/midia-social.webp'
 import Lpage from '../../Images/landing-page.png'
 
 function Divisorias({ isLightMode }) {

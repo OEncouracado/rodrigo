@@ -1,7 +1,7 @@
 .segunda-div{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.925);
-    background-image: url("../../Images/mkdg4.jpg");
+    background-image: url("../../Images/avif/mkdg4_1.avif");
     background-blend-mode: color;
 
     
@@ -19,7 +19,7 @@
 .segunda-divB{
     width: 100%;
     background-color: rgba(255, 255, 255, 0.829);
-    background-image: url("../../Images/mkdg4.jpg");
+    background-image: url("../../Images/avif/mkdg4_1.avif");
     background-blend-mode: lighten;
 
     

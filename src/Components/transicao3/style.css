@@ -1,6 +1,6 @@
 .transicao3{
     background-color: rgba(0, 0, 0, 0.685);
-    background-image: url("../../Images/negocio.png");
+    background-image: url("../../Images/avif/negocio_1.avif");
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
@@ -21,7 +21,7 @@
 
 .transicao3B{
     background-color: #ffffff9a;
-    background-image: url("../../Images/negocio.png");
+    background-image: url("../../Images/avif/negocio_1.avif");
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
