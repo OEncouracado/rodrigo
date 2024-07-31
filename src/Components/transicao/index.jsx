@@ -3,7 +3,7 @@ import "./style.css"
 
 function Transicao({ isLightMode }) {
   return (
-  <div className='row m-0'>
+    <div className='row m-0' id='quem-somos'>
     <div className={isLightMode ? 'col transicaoB d-flex justify-content-center align-items-center' : 'col transicao d-flex justify-content-center align-items-center'}>
       <h1 className={isLightMode? 'text-black':'text-white'}>A MAV'S</h1>
     </div>

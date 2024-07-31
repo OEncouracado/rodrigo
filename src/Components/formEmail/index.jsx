@@ -8,7 +8,7 @@ function FormEmail({isLightMode}) {
             <div className="col-lg-12 contact-box m-0 smb-4">
                 <div className={isLightMode ? "p-4 bg-dark bg-opacity-75":"p-4 bg-light bg-opacity-75"} style={{marginLeft:"1rem"}}>
                 <h1 className={isLightMode ? "title font-weight-light text-white mt-2":"title font-weight-light mt-2"}>Fale Conosco</h1>
-                <form className="mt-3" action="https://formsubmit.co/lojamavs@gmail.com" method="POST">
+                      <form className="mt-3" action="https://formsubmit.co/contato@mavsleo.com.br" method="POST">
                     <input type="hidden" name="_template" value="table"/>
                     <div className="row">
                     <div className="col-lg-12">

@@ -5,11 +5,11 @@ import Topo from './Components/Top'
 import Transicao from './Components/transicao';
 import Divisorias from './Components/div';
 // import DivPlanos from './Components/planos';
-import SwitchLD from './Components/switch';
 import Transicao2 from './Components/transicao2';
 import Foot from './Components/foot';
 import DivClientes from './Components/clientes';
 import Transicao3 from './Components/transicao3';
+import TopBar from './Components/Top/topBar';
 
 function App() {
   const [isLightMode, setIsLightMode] = useState(getInitialMode());
@@ -36,8 +36,7 @@ function App() {
   }
   return (
     <>
-    
-    <SwitchLD isLightMode={isLightMode} toggleTheme={toggleTheme}/>
+    <TopBar isLightMode={isLightMode} toggleTheme={toggleTheme}/> 
     <Topo isLightMode={isLightMode}/>
     <Transicao isLightMode={isLightMode}/>
     <Divisorias isLightMode={isLightMode}/>
