@@ -1,15 +1,15 @@
 import React from 'react'
 import "./style.css"
 import FormEmail from '../formEmail'
-import logo from "../../Images/Logos/logoleaoinvertido.png"
-import logoB from "../../Images/Logos/logoleaoinvertido.png"
+import logo from "../../Images/logoleaoinvertido.png"
+import logoB from "../../Images/Logos/logoleao.png"
 // import InstaFeed from './../InstaFeed/index';
 import InstagramFeed from '../InstaFeed2'
 
 function Foot({isLightMode}) {
   return (
   <>
-      <h1 className={isLightMode ? "m-0 p-3 bg-white text-dark text-center" : "m-0 p-3 bg-dark text-white text-center"} id='contato'>FALE CONOSCO</h1>
+      <h1 className={isLightMode ? "m-0 p-3 pt-5 bg-white text-dark text-center" : "m-0 p-3 pt-5 bg-dark text-white text-center"} id='contato'>FALE CONOSCO</h1>
     <div className={isLightMode ? "footB mx-0 row":"foot mx-0 row"}>
     
     <div className="col-lg-4">

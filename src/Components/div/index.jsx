@@ -7,8 +7,8 @@ import Lpage from '../../Images/landing-page.png'
 
 function Divisorias({ isLightMode }) {
   return (
-    <div className={isLightMode ? 'segunda-divB d-flex justify-content-center':'segunda-div d-flex justify-content-center'}>
-      <Container className={isLightMode ? 'row servicosB  d-flex justify-content-center' : 'row servicos  d-flex justify-content-center'}>
+    <div className={isLightMode ? 'segunda-divB d-flex justify-content-center' : 'segunda-div d-flex justify-content-center'} id='servicos'>
+      <Container className={isLightMode ? ' pt-5 row servicosB  d-flex justify-content-center' : 'pt-5 row servicos  d-flex justify-content-center'}>
         <div className="col-lg-12 mb-5 d-flex justify-content-center"> <h1 className={isLightMode ? ' tituloB mt-2':' titulo mt-2'}>Nossos Serviços</h1></div>
           <div className='row'>
             <div className="col-lg-4">

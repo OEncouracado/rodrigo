@@ -11,10 +11,10 @@ function DivClientes({isLightMode}) {
 
   return (
     <div 
-    className={isLightMode ? "flex-column fundoPlanoB d-flex justify-content-center":"flex-column fundoPlano d-flex justify-content-center"
-    }
-      id='clientes'>
-        <Container className={isLightMode ?'planosB': 'planos'}>
+      className={isLightMode ? "flex-column fundoPlanoB d-flex justify-content-center" : "flex-column fundoPlano d-flex justify-content-center"
+      } id='clientes'
+    >
+      <Container className={isLightMode ? 'pt-5 planosB' : 'pt-5 planos'} >
           <Container className="row d-flex justify-content-center">
             <div className="row d-flex justify-content-center">
                 <div className="col-lg-12 mb-5 d-flex justify-content-center"><h1 className={isLightMode ? 'text-center text-white':'text-center'}>Nossos Clientes</h1></div>

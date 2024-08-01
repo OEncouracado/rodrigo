@@ -10,6 +10,7 @@ import Foot from './Components/foot';
 import DivClientes from './Components/clientes';
 import Transicao3 from './Components/transicao3';
 import TopBar from './Components/Top/topBar';
+import DivisoriasP from './Components/div2';
 
 function App() {
   const [isLightMode, setIsLightMode] = useState(getInitialMode());
@@ -38,8 +39,9 @@ function App() {
     <>
     <TopBar isLightMode={isLightMode} toggleTheme={toggleTheme}/> 
     <Topo isLightMode={isLightMode}/>
-    <Transicao isLightMode={isLightMode}/>
     <Divisorias isLightMode={isLightMode}/>
+    <DivisoriasP isLightMode={isLightMode}/>
+    <Transicao isLightMode={isLightMode}/>
     <Transicao3 isLightMode={isLightMode}/>
     <DivClientes isLightMode={isLightMode}/>
     <Transicao2 isLightMode={isLightMode}/>
