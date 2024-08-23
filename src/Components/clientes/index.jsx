@@ -6,7 +6,9 @@ import ProtectionCard from '../protectionCard';
 function DivClientes({isLightMode}) {
 
   const protectionOptions = [
-    { title: 'Hospital EMCOR de Nova Iguaçu',zap:'https://wa.me/5521974087703'},
+    { title: 'Hospital EMCOR de Nova Iguaçu',
+      zap:'https://wa.me/5521974087703' ,
+      site:'https://hospitalemcor.com.br/novo',}
   ];
 
   return (
@@ -22,8 +24,8 @@ function DivClientes({isLightMode}) {
           </Container>
           <Container className="row d-flex justify-content-center">
                 <div className="col-3-sm protection-cards">
-                    {protectionOptions.map(({ title, price, descrip, zap , }) => (
-                      <ProtectionCard key={title} title={title} price={price} descrip={descrip} zap={zap}/>
+                    {protectionOptions.map(({ title, price, site, descrip, zap , }) => (
+                      <ProtectionCard key={title} site={site} title={title} price={price} descrip={descrip} zap={zap}/>
                     ))}
                 </div>
           </Container>
