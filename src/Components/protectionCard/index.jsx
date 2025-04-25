@@ -2,16 +2,23 @@ import React from 'react'
 import "./style.css"
 import { Button } from "react-bootstrap";
 
-function ProtectionCard({ title, price, site, zap, msg, isLightMode, img }) {
+function ProtectionCard({
+  title,
+  price,
+  site,
+  zap,
+  msg,
+  isLightMode,
+  img,
+  descrip,
+}) {
   return (
     <div className="protection-card">
       <h3 className="protection-card__title py-2">{title}</h3>
       <a href={site}>
         <img className="sites" src={img} alt="emcor" srcset="" />
       </a>
-      <p className="protection-card__description">
-        Quer ser nosso próximo cliente?
-      </p>
+      <p className="protection-card__description">{descrip}</p>
       <Button
         target="_blank"
         rel="noopener noreferrer"

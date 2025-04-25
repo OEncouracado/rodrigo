@@ -40,8 +40,8 @@ function App() {
     <TopBar isLightMode={isLightMode} toggleTheme={toggleTheme}/> 
     <Topo isLightMode={isLightMode}/>
     <Divisorias isLightMode={isLightMode}/>
-    <DivisoriasP isLightMode={isLightMode}/>
     <Transicao isLightMode={isLightMode}/>
+    <DivisoriasP isLightMode={isLightMode}/>
     <Transicao3 isLightMode={isLightMode}/>
     <DivClientes isLightMode={isLightMode}/>
     <Transicao2 isLightMode={isLightMode}/>

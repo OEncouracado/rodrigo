@@ -7,9 +7,12 @@ import img from "../../Images/avif/hospitalemcor.com.br_novo_.png"
 function DivClientes({isLightMode}) {
 
   const protectionOptions = [
-    { title: 'Hospital EMCOR de Nova Iguaçu',
-      zap:'https://wa.me/5521974087703' ,
-      site:'https://hospitalemcor.com.br/novo',}
+    {
+      title: "Hospital EMCOR de Nova Iguaçu",
+      zap: "https://wa.me/5521974087703",
+      site: "https://hospitalemcor.com.br/novo",
+      descrip: "Quer ser nosso novo cliente?",
+    },
   ];
 
   return (
