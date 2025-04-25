@@ -2,6 +2,7 @@ import React from 'react'
 import "./style.css"
 import { Container } from 'react-bootstrap'
 import ProtectionCard from '../protectionCard';
+import img from "../../Images/avif/hospitalemcor.com.br_novo_.png"
 
 function DivClientes({isLightMode}) {
 
@@ -25,7 +26,7 @@ function DivClientes({isLightMode}) {
           <Container className="row d-flex justify-content-center">
                 <div className="col-3-sm protection-cards">
                     {protectionOptions.map(({ title, price, site, descrip, zap , }) => (
-                      <ProtectionCard key={title} site={site} title={title} price={price} descrip={descrip} zap={zap}/>
+                      <ProtectionCard key={title} site={site} title={title} price={price} descrip={descrip} zap={zap} img={img}/>
                     ))}
                 </div>
           </Container>
